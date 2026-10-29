@@ -1,0 +1,36 @@
+{
+  "name": "placement-guides",
+  "version": "1.0.0",
+  "description": "Company interview experience portal",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "build": "node scripts/build.js",
+    "demo": "node scripts/demo-seed.js"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "@fontsource-variable/inter": "^5.3.0",
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^13.0.3",
+    "cookie-parser": "^1.4.7",
+    "express": "^5.3.0",
+    "express-rate-limit": "^8.7.1",
+    "google-auth-library": "^11.3.1",
+    "helmet": "^8.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.5.0",
+    "pdfjs-dist": "^6.4.299",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "pdfkit": "^0.20.2",
+    "pngjs": "^7.0.0"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  }
+}
